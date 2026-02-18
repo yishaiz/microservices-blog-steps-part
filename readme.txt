@@ -13,3 +13,7 @@ hosts file
 
 navigate to:
 posts.com/posts
+
+curl -X POST posts.com/posts --header "Content-Type: application/json" --data-raw '{"title": "The first post in docker"}' 
+curl -X POST posts.com/posts --header "Content-Type: application/json" --data-raw '{"title": "The second post in docker"}' 
+curl -X POST posts.com/posts --header "Content-Type: application/json" --data-raw '{"title": "Another post in docker"}' 
